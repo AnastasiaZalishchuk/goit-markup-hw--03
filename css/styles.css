@@ -170,6 +170,7 @@ body {
 }
 
 /* Description */
+
 .descr-section {
   padding-bottom: 120px;
   padding-top: 120px;
@@ -188,6 +189,10 @@ body {
   letter-spacing: 0.4px;
   margin-bottom: 8px;
 }
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
 .descr-text {
   color: var(--slate-tx);
   font-size: 16px;
@@ -197,6 +202,9 @@ body {
   letter-spacing: 0.32px;
   max-width: 264px;
   width: 100%;
+}
+.descr-item {
+  width: calc((100% - 72px) / 4);
 }
 
 /* About team */

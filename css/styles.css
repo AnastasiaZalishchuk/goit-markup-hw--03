@@ -334,6 +334,8 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--primary-iris);
+  display: block;
+  margin-bottom: 16px;
 }
 .footer-logo-color {
   color: var(--light-cloud);
@@ -346,5 +348,4 @@ body {
   color: var(--light-cloud);
   max-width: 264px;
   width: 100%;
-  margin-top: 17px;
 }

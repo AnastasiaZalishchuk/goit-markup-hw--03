@@ -63,6 +63,7 @@ body {
 .header-section {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: --white-background;
+  padding: 24px 0;
 }
 .header-flex {
   display: flex;
@@ -78,10 +79,7 @@ body {
   align-items: center;
   gap: 40px;
 }
-.header-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;

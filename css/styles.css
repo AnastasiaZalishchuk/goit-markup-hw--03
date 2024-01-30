@@ -334,7 +334,7 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--primary-iris);
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 .footer-logo-color {

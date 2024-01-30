@@ -63,7 +63,6 @@ body {
 .header-section {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: --white-background;
-  padding: 24px 0;
 }
 .header-flex {
   display: flex;
@@ -100,6 +99,8 @@ body {
   line-height: calc(24 / 16);
   letter-spacing: 0.32px;
   color: var(--navy-blue);
+  display: block;
+  padding: 24px 0;
 }
 .header-item-link:hover,
 .header-item-link:focus {

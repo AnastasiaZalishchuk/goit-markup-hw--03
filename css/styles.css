@@ -62,7 +62,7 @@ body {
 
 .header-section {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: --white-background;
+  background: var(--white-background);
 }
 .header-flex {
   display: flex;

@@ -122,6 +122,8 @@ body {
   font-weight: 400;
   line-height: calc(24 / 16);
   letter-spacing: 0.32px;
+  display: block;
+  padding: 24px 0;
 }
 .address-link:hover,
 .address-link:focus {
